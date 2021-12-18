@@ -1,35 +1,33 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-	<title>Loja de Anoes do Pedroca</title>
+<title>Cadastro de usuários</title>
 </head>
-
 <body>
+    <head>
+     <h1>Cadastro de usuários</h1>
+        <p>Criação de sistema para disciplina de Banco de Dados para WEB</p>
+    </head>
 
-    <header>
-        <h1>Anoes para todos os gostos</h1>
-        <h1>Cadastro de usuário para compra e venda de anoes</h1>
-	    <p>Garanta ja seu anao com o maior custo beneficio do mercado</p>
-    </header>
 
-    <form action="salvar.php" method = "Post">
-        nome
-        <input type="text" name = "nome">
-        email
-        <input type="text" name = "email">
-        senha
-        <input type="password>" name = "senha">
 
-        <input type = "submit" value = "Enviar">
-    </form>
+<a href="index.php">Voltar</a>
 
-    <footer>
-        <p>Author: Pedro Daniel </p>
-        <p><a href="mailto:ped.daniel@outlook.com">ped.daniel@outlook.com</a></p>
-    </footer>
+<form action="/save.php"  method="post">
+  <label for="nome">Escreva seu nome:</label><br>
+  <input type="text" id="nome" name="nome"><br>
+  <label for="email">Escreva seu E-mail:</label><br>
+  <input type="text" id="email" name="email"><br>
+  <label for="senha">Digite sua senha:</label><br>
+  <input type="password" id="senha" name="senha"><br>
+  <input type="submit" value="Finalizar cadastro">
+</form>
 
-<br>
-    <a href = "home.php">voltar</a>
-</body>
+<footer>
+    <p>SISTEMA BDWeb</p>
+    <p> Author: Maria Eduarda Fernandes Lago<br>
+        E-mail: <a href = "marialagoufrn@gmail.com">marialagoufrn@gmail.com</a></p>
+</footer>
+
 </html>
+
