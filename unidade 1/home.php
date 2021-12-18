@@ -1,3 +1,6 @@
+
+
+
 <!DOCTYPE html>
 <html>
 
@@ -5,8 +8,8 @@
     <?php
         // Start the session
         session_start(); 
-        echo "<h1>Loja de Anoes do Pedroca"."</h1>";
-        echo "Os melhores anoes com os melhores preços do mercado" . "</br>";
+        echo "<h1>BDW - Maria Lago"."</h1>";
+        echo "Disciplina de Banco de dados para WEB" . "</br>";
     ?>
        
 
@@ -17,10 +20,10 @@
                 "<br>";
                 echo "Essa eh a seresta do " . $tag ."<p>" ;
                 "<br>";
-            $servername = "sql111.epizy.com";
-            $username = "epiz_30214671";
-            $password = "mbbuwAcNRuWrmo";
-            $dbname = "epiz_30214671_lojadeanao";
+            $servername = "sql308.epizy.com";
+            $username = "epiz_30293426";
+            $password = "qQS2qbYktI4xDKu";
+            $dbname = "epiz_30293426_mybank";
 
             // Create connection
             $conn = new mysqli($servername, $username, $password ,$dbname);
