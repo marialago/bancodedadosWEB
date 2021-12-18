@@ -15,11 +15,8 @@
 
     <?php
         if($_SESSION["estalogado"]==true){
-            echo "<h1>Seja bem vindo a Loja de Anões ".$_SESSION["email"]."</h1>";
-                 $tag = "Pai das Crianca" ;
-                "<br>";
-                echo "Essa eh a seresta do " . $tag ."<p>" ;
-                "<br>";
+            echo "<h1>Seja bem vindo!".$_SESSION["email"]."</h1>";
+            
             $servername = "sql308.epizy.com";
             $username = "epiz_30293426";
             $password = "qQS2qbYktI4xDKu";
