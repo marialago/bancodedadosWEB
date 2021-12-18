@@ -2,12 +2,11 @@
 <html>
 
 <head>
-	<title>Loja de Anoes do Pedroca</title>
+	<title>BDW - Maria Eduarda Fernandes Lago</title>
 </head>
 
 <body>
 
-	<h1>Anoes para todos os gostos</h1>
     <h1>Salvar</h1>
 
 
@@ -16,11 +15,10 @@
         $email =  $_POST["email"];
         $senha = sha1($_POST["senha"]);
 
-        $servername = "sql111.epizy.com";
-        $username = "epiz_30214671";
-        $password = "mbbuwAcNRuWrmo";
-        $dbname = "epiz_30214671_lojadeanao";
-
+	    $servername = "sql308.epizy.com";
+	    $username = "epiz_30293426";
+	    $password = "qQS2qbYktI4xDKu";
+	    $dbname = "epiz_30293426_mybank";
         // Create connection
         $conn = new mysqli($servername, $username, $password, $dbname);
         // Check connection
