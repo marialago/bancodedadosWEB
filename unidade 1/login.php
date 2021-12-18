@@ -1,33 +1,30 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-	<title>Login de Uusario</title>
+<title>Login de usuários</title>
 </head>
-
 <body>
+    <head>
+     <h1>Login</h1>
+        <p>Criação de sistema para disciplina de Banco de Dados para WEB</p>
+    </head>
 
-    <header>
-        <h1>Anoes para todos os gostos</h1>
-        <h1>Login para vendedores e compradores de Anoes</h1>
-	    <p>Garanta ja seu anao com o maior custo beneficio do mercado</p>
-    </header>
+<form action="validar_usuario.php"  method="Post">
+  <label for="email">Escreva seu E-mail:</label><br>
+  <input type="text" id="email" name="email"><br>
+  <label for="senha">Digite sua senha:</label><br>
+  <input type="password" id="senha" name="senha"><br>
+  <input type="submit" value="Realizar login">
+</form>
 
-    <form action="validar_usuario.php" method = "Post">
-        email
-        <input type="text" name = "email">
-        senha
-        <input type="password>" name = "senha">
+<footer>
+    <p>SISTEMA BDWeb</p>
+    <p> Author: Maria Eduarda Fernandes Lago<br>
+        E-mail: <a href = "marialagoufrn@gmail.com">marialagoufrn@gmail.com</a></p>
+</footer>
 
-        <input type = "submit" value = "Entrar">
-    </form>
+</html>
 
-    <footer>
-        <p>Author: Pedro Daniel </p>
-        <p><a href="mailto:ped.daniel@outlook.com">ped.daniel@outlook.com</a></p>
-    </footer>
-
-<br>
     <a href = "home.php">voltar</a>
 </body>
 </html>
