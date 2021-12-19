@@ -2,28 +2,17 @@
 <html>
 
 <head>
-	<title>Loja de Anoes do Pedroca</title>
+	<title>BDW - Validação</title>
 </head>
 
 <body>
 
 	<h1>Validar usuario</h1>
-	<p>Anao eh babao</p>
-
-	<?php
-        $tag = "Pai das Crianca" ;
-        "<br>";
-        echo "<br>" . "Essa eh a seresta do " . $tag ."<p>" ;
-        "<br>";
-    
-    ?>
 
     <?php
         // Start the session
         session_start();
     ?>
-
-  
 
     <?php 
     $email = $_POST["email"];
@@ -32,10 +21,12 @@
     $_SESSION["estalogado"]=false;
     $_SESSION["email"]=$email;
 
-    $servername = "sql111.epizy.com";
-    $username = "epiz_30214671";
-    $password = "mbbuwAcNRuWrmo";
-    $dbname = "epiz_30214671_lojadeanao";
+
+    $servername = "sql308.epizy.com";
+    $username = "epiz_30293426";
+    $password = "qQS2qbYktI4xDKu";
+    $dbname = "epiz_30293426_mybank";
+
 
     // Create connection
     $conn = new mysqli($servername, $username, $password ,$dbname);
