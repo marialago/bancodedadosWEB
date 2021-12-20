@@ -6,7 +6,7 @@ repositório para disciplina de Banco de Dados pra Web
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - [PHP](https://www.php.net/)
-- [MySQL] (https://www.mysql.com/)
+- [MySQL](https://www.mysql.com/)
 
 ## Licença
 
