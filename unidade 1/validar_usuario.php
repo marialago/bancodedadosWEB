@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <html>
-
 <head>
 	<title>BDW - Validação</title>
 </head>
 
 <body>
-
 	<h1>Validar usuario</h1>
-
+    
     <?php
         // Start the session
         session_start();
@@ -35,7 +33,6 @@
     if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
     }
-
 
     $sql = "SELECT * FROM usuario";
     $result = $conn->query($sql);
