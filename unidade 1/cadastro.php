@@ -6,7 +6,7 @@
 <body>
     <head>
      <h1>Cadastro de usuários</h1>
-        <p>Criação de sistema para disciplina de Banco de Dados para WEB</p>
+        <p>Criação de sistema com armazenamento em banco de dados utilizando PHP</p>
     </head>
 
 
